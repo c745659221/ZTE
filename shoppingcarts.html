@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的购物车 </title>
+		<link rel="stylesheet" type="text/css" href="css/public02.css" />
+		<link rel="stylesheet" type="text/css" href="css/shoppingcarts.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/public02.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shoppingcarts.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--header部分开始-->
+		<div id="wrap-header">
+			<div class="header">
+				<!--header左侧部分-->
+				<ul class="header-left">
+					<li>
+						<a href="javascript:;">中兴校园</a>
+					</li>
+					<li>
+						<a href="javascript:;">帮助中心</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="last">全年无休热线:400-880-9999</a>
+					</li>
+				</ul>
+				<!--header右侧部分-->
+				<ul class="header-right">
+					<li>
+						<a href="http://127.0.0.1:8020/myZTEshoppingmall/login-in.html">登录</a>
+					</li>
+					<li>
+						<a href="http://127.0.0.1:8020/myZTEshoppingmall/login.html">免费注册</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li>
+						<a href="javascript:;" class="last">手机版</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--header部分结束-->
+		<!--search部分开始-->
+		<div id="wrap-search">
+			<div class="search-block">
+				<!--中兴的LOGO部分-->
+				<a href="http://127.0.0.1:8020/myZTEshoppingmall/myZTEshoppingmall.html"><img src="img/zx-logo.png" /></a>
+				<!--购物车部分-->
+				<div class="shopping-cart">
+					<a href="http://127.0.0.1:8020/myZTEshoppingmall/shoppingcarts.html">
+						<img src="img/shopcart.png" />
+						<span>购物车</span>
+					</a>
+					<div class="small-data">0</div>
+				</div>
+				<div class="cart-bottom clear">
+					<span>购物车中还没有商品，还去选购吧!<img src="img/smile.png"/></span>
+				</div>
+				<!--搜索部分-->
+				<div class="search-left clear">
+					<input type="text" placeholder="搜索您需要的商品" class="search-input" />
+					<div class="search-shade">
+						<a href="javascript:;">Blade&nbsp;A2</a>
+					</div>
+					<!--搜索按钮部分-->
+					<div class="search-button">
+						<button></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--search部分结束-->
+		<div id="wrap-nav">
+			<div class="nav-block">
+				<ul class="nav-pull">
+					<!--一级导航部分-->
+					<li class="nav-left nav-all">
+						<span>全部商品分类</span>
+						<img src="img/fenlei_icon.png" alt="全部商品分类" />
+						<!--全部商品分类的二级导航部分-->
+						<ul class="nav-fl">
+							<li class="nav-all-second nav-phone">
+								<h4 class="second-title"><a href="javascript:;">手机</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="http://127.0.0.1:8020/myZTEshoppingmall/list.html">天机系列</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">Blade系列</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">远航系列</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">其他手机</a>
+									</li>
+									<div class="more-goods more-phone">
+										<!--三级导航部分-->
+										<ul>
+											<li>
+												<img src="img/phone01.jpg" alt="天机系列" />
+												<a href="http://127.0.0.1:8020/myZTEshoppingmall/list.html">天机系列</a>
+											</li>
+											<li>
+												<img src="img/phone02.jpg" alt="Blade系列" />
+												<a href="javascript:;">Blade系列</a>
+											</li>
+											<li>
+												<img src="img/phone03.png" alt="远航系列" />
+												<a href="javascript">远航系列</a>
+											</li>
+											<li>
+												<img src="img/phone04.jpg" alt="其他手机" />
+												<a href="javascript">其他手机</a>
+											</li>
+										</ul>
+									</div>
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">智能终端</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">便携投影</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">智能穿戴</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">网络盒子</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods more-smart">
+										<ul>
+											<li>
+												<img src="img/smart01.jpg" alt="便携投影" />
+												<a href="javascript:;">便携投影</a>
+											</li>
+											<li>
+												<img src="img/smart02.jpg" alt="智能穿戴" />
+												<a href="javascript:;">智能穿戴</a>
+											</li>
+											<li>
+												<img src="img/smart03.jpg" alt="网络盒子" />
+												<a href="javascript:;">网络盒子</a>
+											</li>
+										</ul>
+									</div>
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">耳机 / 音响</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">蓝牙耳机</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">蓝牙音箱</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods">
+										<ul>
+											<li>
+												<img src="img/lister01.jpg" alt="蓝牙耳机" />
+												<a href="javascript:;">蓝牙耳机</a>
+											</li>
+											<li>
+												<img src="img/lister02.jpg" alt="蓝牙音箱" />
+												<a href="javascript:;">蓝牙音箱</a>
+											</li>
+										</ul>
+									</div>
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">数据线 / 电源适配器</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">充电器</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">数据线</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">车载充电</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods">
+										<ul>
+											<li>
+												<img src="img/cable01.jpg" alt="充电器" />
+												<a href="javascript:;">充电器</a>
+											</li>
+											<li>
+												<img src="img/cable02.jpg" alt="数据线" />
+												<a href="javascript:;">数据线</a>
+											</li>
+											<li>
+												<img src="img/cable03.jpg" alt="车载充电" />
+												<a href="javascript:;">车载充电</a>
+											</li>
+										</ul>
+									</div>
+
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">保护套 / 后盖 / 贴膜</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">皮套</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">贴膜</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">保护套</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods">
+										<ul>
+											<li>
+												<img src="img/protect01.jpg" alt="皮套" />
+												<a href="javascript:;">皮套</a>
+											</li>
+											<li>
+												<img src="img/protect02.jpg" alt="贴膜" />
+												<a href="javascript:;">贴膜</a>
+											</li>
+											<li>
+												<img src="img/protect03.jpg" alt="保护袋" />
+												<a href="javascript:;">保护袋</a>
+											</li>
+										</ul>
+									</div>
+
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">移动电源/存储卡</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">存储卡</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">读卡器</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">移动电源</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods">
+										<ul>
+											<li>
+												<img src="img/reserve01.jpg" alt="储存卡" />
+												<a href="javascript:;">储存卡</a>
+											</li>
+											<li>
+												<img src="img/reserve02.jpg" alt="读卡器" />
+												<a href="javascript:;">读卡器</a>
+											</li>
+											<li>
+												<img src="img/reserve03.jpg" alt="移动电源" />
+												<a href="javascript:;">移动电源</a>
+											</li>
+										</ul>
+									</div>
+
+								</ul>
+							</li>
+							<li class="nav-all-second">
+								<h4 class="second-title"><a href="javascript:;">服务及周边</a></h4>
+								<ul class="second-content">
+									<li class="second-phone">
+										<a href="javascript:;">车载支架</a>
+									</li>
+									<li class="second-phone">
+										<a href="javascript:;">自拍杆</a>
+									</li>
+									<!--三级导航部分-->
+									<div class="more-goods">
+										<ul>
+											<li>
+												<img src="img/hoder01.jpg" alt="车载支架" />
+												<a href="javascript:;">车载支架</a>
+											</li>
+											<li>
+												<img src="img/hoder02.jpg" alt="自拍杆" />
+												<a href="javascript:;">自拍杆</a>
+											</li>
+										</ul>
+									</div>
+
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-left">
+						<a href="http://127.0.0.1:8020/myZTEshoppingmall/myZTEshoppingmall.html" class="small-title">首页</a>
+					</li>
+					<li class="nav-left nav-sky">
+						<a href="javascript: ;" class="small-title">天机7&nbsp;MAX</a>
+						<img src="img/hot.png" />
+					</li>
+					<li class="nav-left nav-sky">
+						<a href="javascript: ;" class="small-title">天机7</a>
+						<img src="img/hot.png" />
+					</li>
+					<li class="nav-left nav-product">
+						<a href="javascript: ;" class="small-title small-blade">Blade系列</a>
+						<!--Blade的二级导航部分-->
+						<div class="nav-second blade-nav">
+							<ul class="second-detail">
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/Blade01.jpg"/></dt>
+											<dd>
+												<p class="blade-name">Blade A2 Plus</p>
+												<p class="blade-price">￥899.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/Blade02.jpg"/></dt>
+											<dd>
+												<p class="blade-name">Blade A2</p>
+												<p class="blade-price">￥699.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt class="dt-last"><img src="img/Blade03.jpg"/></dt>
+											<dd>
+												<p class="blade-name">Blade A2 高配版</p>
+												<p class="blade-price">￥799.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="nav-left nav-product">
+						<a href="javascript: ;" class="small-title small-ZTE">ZTE精品系列</a>
+						<!--ZTE精品的二级导航部分-->
+						<div class="nav-second ZTE-nav">
+							<ul class="second-detail">
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/goodproduct01.jpg"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">V7 MAX(全网通)</p>
+												<p class="goodproduct-price blade-price">￥1799.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/goodproduct02.jpg"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">A910</p>
+												<p class="goodproduct-price blade-price">￥1299.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/goodproduct03.jpg"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">小鲜4</p>
+												<p class="goodproduct-price blade-price">￥1090.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/goodproduct04.jpg"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">AXON天机MAX</p>
+												<p class="goodproduct-price blade-price">￥2799.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt><img src="img/goodproduct05.png"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">远航4</p>
+												<p class="goodproduct-price blade-price">￥799.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+								<li>
+									<a href="javascript: ;">
+										<dl>
+											<dt class="dt-last"><img src="img/goodproduct06.jpg"/></dt>
+											<dd>
+												<p class="goodproduct-name blade-name">Spro 2 智能微投</p>
+												<p class="goodproduct-price blade-price">￥3699.0</p>
+											</dd>
+										</dl>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+					</li>
+					<li class="nav-left">
+						<a href="javascript: ;" class="small-title">中兴社区</a>
+					</li>
+					<li class="nav-right">
+						<div class="news-block">
+							<ul>
+								<li>
+									<a href="">春节期间发货时间调整</a>
+								</li>
+								<li>
+									<a href="">关于中兴手机商城12月28日系统升级公告</a>
+								</li>
+								<li>
+									<a href="">【公告】ZTE中兴 天机7 Max预约活动开奖!</a>
+								</li>
+								<li>
+									<a href="">春节期间发货时间调整</a>
+								</li>
+							</ul>
+							<img src="img/horn.png" />
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--
+        	作者：hornd@126.com
+        	时间：2017-02-14
+        	描述：nav部分结束
+        -->
+		<div id="wrap-container">
+			<div class="empty-carts">
+				<ul>
+					<li><img src="img/blankcart.png"/></li>
+					<li>
+						<h4>购物车是空的！</h4>
+						<h5>请快挑选喜欢的商品吧</h5>
+					</li>
+					<li>
+						<a href="http://127.0.0.1:8020/myZTEshoppingmall/myZTEshoppingmall.html">立即去购物</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container" style="display: none;">
+				<div class="breadcrumb"><img src="img/nav-1.png"/></div>
+				<div class="alert">
+					<img src="img/warning.png"/>
+					<span>您当前未登录，登录后享受会员专属折扣及优惠促销，更可长久保存购物车数据</span>
+					<a href="http://127.0.0.1:8020/myZTEshoppingmall/login-in.html"><button>立即登录</button></a>
+				</div>
+				<div class="carts-header">
+					<ul>
+						<li class="all-select">
+							<input type="checkbox" name="checkbox" checked=""/><label for="">全选</label>
+						</li>
+						<li class="product-name">商品名称</li>
+						<li class="total">成交价</li>
+						<li class="amount">数量</li>
+						<li class="subtotal">小计</li>
+						<li class="handel">操作</li>
+					</ul>
+				</div>
+				<div class="carts-item">
+					<ul>
+						<li class="cart-f" style="display: none;">
+							<ul class="good">
+								<li class="check">
+									<input type="checkbox" name="checkbox" id="" value="" checked=""/>
+								</li>
+								<li class="product-name">
+									<div class="pro-pic">
+										<img src="img/m-detil02.jpg"/>
+									</div>	
+									<div class="pro-simple">
+										<h4><a href="javascript">ZTE中兴 天机7 A2017(全网通)</a></h4>
+										<h5>华尔金/全网通/4G+64G</h5>
+									</div>
+								</li>
+								<li class="total">￥<span>3099.0</span></li>
+								<li class="amount data">
+									<button class="reduce" type="">-</button>
+									<span class="number">1</span>
+									<button class="plus">+</button>
+								</li>
+								<li class="subtotal sub">￥<span>3099.0</span></li>
+								<li class="handel"><a href="http://127.0.0.1:8020/myZTEshoppingmall/shoppingcarts.html">删除</a></li>
+							</ul>
+						</li>
+					</ul>
+					
+				</div>
+				<div class="clearing">
+					<ul>
+						<li class="all-select">
+							<input type="checkbox" name="checkbox" checked=""/>
+							全选
+						</li>
+						<li class="delete-select">
+							<a href="javascript:;">删除选中商品</a>
+						</li>
+						<li class="pinkage option">
+							<span>包邮</span>&nbsp;满150包邮
+						</li>
+						<li class="favorable option">
+							共<span>1</span>项促销优惠
+							<img src="img/zhankai.png"/>
+						</li>
+						<li class="total-price option">
+							已选择<span class="text-numb">1</span>件商品,合计 (包邮)：
+							<span class="text-price">￥0.0</span>
+						</li>
+						<li class="total-acount">
+							已选择<span class="text-numb">0</span>件商品,合计 (不包邮)：
+							<span class="text-price">￥0.0</span>
+						</li>
+						<li class="all-price">
+							<span>去结算</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<div id="wrap-serves">
+			<div class="serves-block">
+				<ul>
+					<li>
+						<img src="img/7.png" alt="" />
+						<span>7天退货保障</span>
+					</li>
+					<li>
+						<img src="img/30.png" alt="" />
+						<span>15天换货承诺</span>
+					</li>
+					<li>
+						<img src="img/mian.png" alt="" />
+						<span>150元起全场免运费</span>
+					</li>
+					<li>
+						<img src="img/position.png" alt="" />
+						<span>全国售后服务点</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--
+        	作者：hornd@126.com
+        	时间：2017-02-15
+        	描述：底部链接部分
+        -->
+		<div id="wrap-footer-link">
+			<div class="footer-link">
+				<div class="footer-link-l">
+					<ul class="introduce">
+						<li class="inter">
+							<a href="javascript:;">关注我们</a>
+							<ul class="help-list">
+								<li>
+									<a href="javascript:;">中兴社区</a>
+								</li>
+								<li>
+									<a href="javascript:;">官方微信</a>
+								</li>
+								<li>
+									<a href="javascript:;">新浪微博</a>
+								</li>
+							</ul>
+						</li>
+						<li class="inter">
+							<a href="javascript:;">帮助中心</a>
+							<ul class="help-list">
+								<li>
+									<a href="javascript:;">支付方式</a>
+								</li>
+								<li>
+									<a href="javascript:;">购物指南</a>
+								</li>
+								<li>
+									<a href="javascript:;">配送指南</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="inter">
+							<a href="javascript:;">售后服务</a>
+							<ul class="help-list">
+								<li>
+									<a href="javascript:;">退换货流程</a>
+								</li>
+								<li>
+									<a href="javascript:;">售后网点</a>
+								</li>
+								<li>
+									<a href="javascript:;">退换货政策</a>
+								</li>
+								<li>
+									<a href="javascript:;">保修政策</a>
+								</li>
+							</ul>
+
+						</li>
+						<li class="inter">
+							<a href="javascript:;">关于商城</a>
+							<ul class="help-list">
+								<li>
+									<a href="javascript:;">联系我们</a>
+								</li>
+								<li>
+									<a href="javascript:;">商城简介</a>
+								</li>
+								<li>
+									<a href="javascript:;">礼品团购</a>
+								</li>
+								<li>
+									<a href="javascript:;">关于中兴</a>
+								</li>
+							</ul>
+
+						</li>
+					</ul>
+				</div>
+				<!--
+                	作者：hornd@126.com
+                	时间：2017-02-14
+                	描述：联系方式
+                -->
+				<div class="footer-link-r">
+					<h4>400-880-9999</h4>
+					<h6>周一到周日 8:30 - 20:30 (全年无休)</h6>
+					<div class="helper">
+						<img src="img/kefu.png" />
+						<a href="javascript:;">在线客服</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer部分-->
+		<div id="wrap-footer-bottom">
+			<div class="footer-bottom">
+				<ul>
+					<li>
+						<a href="">中兴社区</a>
+					</li>
+					<li>
+						<a href="">中兴通讯</a>
+					</li>
+					<li>
+						<a href="">汇天地</a>
+					</li>
+					<li>
+						<a href="">中兴云服务</a>
+					</li>
+					<li class="last">
+						<a href="">中兴手机</a>
+					</li>
+				</ul>
+				<p>
+					<a href="javascript:;">服务协议</a> | ©2014 - 2015 中兴通讯股份有限公司版权所有，并保留所有权利</p>
+				<p>增值电信业务经营许可证：粤B2-20160352 | ICP备案证书号 :
+					<a href="javascript:;">粤ICP备16018970号</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="toolbar">
+			<a href="javascript:;" class="weixin">
+				<span class="weixin-tu"></span>
+			</a>
+			<a href="javascript:;" class="contact">
+				<span class="contact-tu"></span>
+			</a>
+			<a href="#" class="back"></a>
+		</div>
+
+	</body>
+
+</html>

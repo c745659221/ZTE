@@ -1,0 +1,51 @@
+[
+	{
+		"src":"img/m-detil01.jpg",
+		"name":"ZTE中兴 天机7 MAX(全网通)",
+		"price":2999.0,
+		"order":2000,
+		"new":"true"
+	},
+	{
+		"src":"img/m-detil02.jpg",
+		"name":"ZTE中兴 天机7 A2017(全网通)",
+		"price":3099.0,
+		"order":2017,
+		"new":""
+	},
+	{
+		"src":"img/m-detil03.jpg",
+		"name":"ZTE中兴 AXON天机 MAX C2016 运营商版",
+		"price":2799.0,
+		"order":666,
+		"new":"true"
+	
+	},
+	{
+		"src":"img/m-detil04.jpg",
+		"name":"ZTE中兴 天机7 A2017 顶配版 (全网通)",
+		"price":4099.0,
+		"order":777,
+		"new":""
+	
+	},
+	{
+		"src":"img/m-detil05.jpg",
+		"name":"ZTE中兴 AXON天机 MAX C2016 压力屏(4G全网通)",
+		"price":2799.0,
+		"order":1999,
+		"new":""
+	
+	},
+	{
+		"src":"img/m-detil06.jpg",
+		"name":"ZTE中兴 AXON天机 A2015 智汇版（4G全网通）",
+		"price":2899.0,
+		"order":888,
+		"new":""
+	
+	}
+
+
+
+]

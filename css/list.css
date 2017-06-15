@@ -1,0 +1,200 @@
+#wrap-catalogue {
+	width: 100%;
+}
+#wrap-catalogue .blank {
+	/*width: 1230px;*/
+	height: 54px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-bottom: 1px solid #F5F5F5;
+}
+#wrap-catalogue .goods-list{
+	width: 100%;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+#wrap-catalogue .goods-list .list-nav {
+	margin: 0 auto;
+	width: 1230px;
+	height: 34px;
+	padding: 13px 0 10px 0;
+}
+#wrap-catalogue .goods-list .list-nav ul li {
+	float: left;
+	height: 12px;
+}
+#wrap-catalogue .goods-list .list-nav ul li a {
+	font-size: 12px;
+	color: #787878;
+	padding: 0 23px;
+	border-right: 1px solid #ddd;
+}
+#wrap-catalogue .goods-list .goods-detail {
+	width: 1230px;
+	margin: 0 auto;
+}
+#wrap-catalogue .goods-list .list-nav ul .list-nav-f {
+	color: #b0b0b0;
+	font-size: 12px;
+	line-height: 24px;
+	border-right: 0;
+	padding-left: 10px;
+}
+#wrap-catalogue .goods-list .list-nav ul .select-list a {
+	color: #fc6628;
+}
+#wrap-catalogue .goods-list .list-nav ul .list-nav-last a {
+	border-right: 0;
+}
+#wrap-catalogue .goods-list .list-button {
+	width: 88px;
+	height: 34px;
+	float:right;
+}
+#wrap-catalogue .goods-list .list-button span {
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 24px;
+	text-align: center;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+#wrap-catalogue .goods-list .list-button .button-left {
+	margin-right: 4px;
+}
+#wrap-catalogue .goods-list .list-button .button {
+	color:#f40;
+	background-color: #fff;
+}
+#wrap-catalogue .goods-list .list-button .select-button {
+	color:#f40;
+	background-color: #fff;
+}
+#wrap-catalogue .goods-list .goods-detail {
+	width: 1230px;
+	height: 720px;
+	overflow: hidden;
+}
+#wrap-catalogue .goods-list .goods-detail ul li {
+	float: left;
+	width: 293px;
+	height: 340px;
+	margin-top: 5px;
+	margin-right:16px ;
+	border: 1px solid #ddd;
+	margin-bottom: 13px;
+	background-color: #fff;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: all .2s linear;
+}
+#wrap-catalogue .goods-list .goods-detail ul .select-li {
+	transform:translate3d(0,-5px,0);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+#wrap-catalogue .goods-list .goods-detail .four {
+	margin-right: 0;
+}
+#wrap-catalogue .goods-list .goods-detail ul li div img {
+	width: 180px;
+	height: 180px;
+	padding: 40px 0 27px;
+}
+#wrap-catalogue .goods-list .goods-detail ul li div h4 {
+	height: 36px;
+	font-size: 14px;
+    overflow: hidden;
+   	width: 265px;
+   	margin:  0 auto;
+   	font-weight: 500;
+   	color: #787878;
+}
+#wrap-catalogue .goods-list .goods-detail ul li div h4:hover {
+	color: #FC6822;
+}
+#wrap-catalogue .goods-list .goods-detail ul li div h5 {
+	margin-top: 10px;
+	font-size: 12px;
+    overflow: hidden;
+    font-weight: 500;
+    color: #fc6822;
+}
+.hot .hot-buy {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #3E82FF;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.hot {
+	position: relative;
+}
+.select-goods {
+	display: none;
+}
+
+.goods-page {
+	width: 1230px;
+	margin: 0 auto;
+	background-color: #fff;
+	display: none;
+}
+.goods-page .product-detail {
+	height: 170px;
+	padding: 4px;
+	border-bottom: 1px solid #ccc;
+}
+.goods-page .last {
+	border-bottom: 0;
+}
+.goods-page .product-detail ul {
+	overflow: hidden;
+	width: 1230px;
+}
+.goods-page .product-detail li {
+	float: left;
+}
+.goods-page .product-detail .product-img {
+	height: 170px;
+	line-height: 170px;
+	padding: 0 68px;
+}
+.goods-page .product-detail .product-img img {
+	width: 140px;
+	height: 140px;
+	vertical-align: middle;
+}
+.goods-page .product-detail .product-intro {
+	padding: 15px;
+	width: 480px;
+	height: 120px;
+	margin-right: 10px;
+}
+.goods-page .product-detail .product-intro h4 {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 500;
+	margin: 20px 0 10px;
+}
+.goods-page .product-detail .product-intro h5 {
+	color: #767676;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.goods-page .product-detail .product-price {
+	padding: 40px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #A94442;
+}

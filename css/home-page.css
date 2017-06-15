@@ -1,0 +1,457 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+img {
+	border: 0;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.clear {
+	overflow: hidden;
+}
+#wrap-banner {
+	width:100%;
+	height: 490px;
+	overflow: hidden;
+}
+
+#wrap-item {
+	width: 100%;
+	height: 200px;
+}
+
+#wrap-recommend {
+	width: 100%;
+	height: 441px;
+}
+#wrap-product {
+	width: 100%;
+	background-color:#F5F5F5 ;
+	overflow: hidden;
+}
+
+#wrap-banner-bottom {
+	width: 100%;
+	height: 140px;
+}
+
+#wrap-serves {
+	width: 100%;
+
+}
+
+#wrap-footer-link {
+	width: 100%;
+	height: 283px;
+}
+
+#wrap-footer-bottom {
+	width: 100%;
+	height: 100px;
+}
+
+
+/*banner的样式*/
+#wrap-banner .nav-banner {
+	position: relative;
+	width: 1349px;
+    height: 490px;
+    margin:0 auto;
+    left: 50%;
+    margin-left: -953px;
+    text-align: center;
+    /*overflow: hidden;*/
+}
+#wrap-banner .nav-banner .banner-img {
+	width: 15240px;
+	position: absolute;
+	left: -1905px;
+	overflow-x: hidden;
+	overflow: hidden;
+/*	display: none;*/
+}
+#wrap-banner .nav-banner .banner-img li {
+	float: left;
+	width: 1905px;
+	height: 490px;
+}
+#wrap-banner .nav-banner .control-left {
+	width: 55px;
+    height: 55px;
+    line-height: 48px;
+    color: #ccc;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 55px;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+   text-align: center;
+   opacity: 0.5;
+   filter: alpha(opacity=50);
+   cursor: pointer;
+}
+#wrap-banner .nav-banner .control-left img {
+	width: 30px;
+	height: 30px;
+}
+#wrap-banner .nav-banner .left {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -95px;
+    text-indent: -5px;
+}
+
+#wrap-banner .nav-banner .right {
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    margin-right: -900px;
+    text-indent: 5px;
+}
+#wrap-banner .nav-banner .select-control {
+	opacity: 1;
+	 filter: alpha(opacity=100);
+}
+#wrap-banner .nav-banner .bottom-item {
+	position: absolute;
+    bottom: 30px;
+    left: 70%;
+    z-index: 15;
+    width: 60%;
+    margin-left: 0;
+    text-align: center;
+}
+#wrap-banner .nav-banner .bottom-item li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+#wrap-banner .nav-banner .bottom-item .select-bottom-item {
+	background: #fff;
+	width: 10px;
+	height: 10px;
+}
+/*item-block的样式*/
+#wrap-item .item-block {
+	overflow: hidden;
+	width: 1260px;
+	margin: 0 auto;
+	padding: 15px 1.5px 20px;
+}
+#wrap-item .item-block ul li {
+	float: left;
+	padding-left:15px;
+}
+#wrap-item .item-block ul .item-block-last {
+	padding-right: 0;
+}
+/*今日推荐的CSS样式*/
+#wrap-recommend .recommend-block {
+	width: 1230px;
+	margin: 0 auto;
+
+}
+#wrap-recommend .recommend-block .title-block {
+	width: 1230px;
+	height: 41px;
+}
+#wrap-recommend .recommend-block .title-block .title {
+	float: left;
+	width: 180px;
+	height: 41px;
+	line-height: 41px;
+	font-size:18px ;
+	color: #fff;
+	background-color: #FC6628;
+	
+}
+#wrap-recommend .recommend-block .title-block .title img {
+	float:left;
+	margin: 8px 10px 0 15px;
+}
+#wrap-recommend .recommend-block .change-button {
+	float: right;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 900;
+	width: 80px;
+	color:#666;
+	margin-right: 20px;
+}
+#wrap-recommend .recommend-block .change-button span {
+	display: inline-block;
+	margin-top:8px ;
+	float: left;
+	width: 36px;
+	height: 24px;
+	line-height:24px ;
+	border: 1px solid #ccc;
+	cursor: pointer;	
+}
+#wrap-recommend .recommend-block .change-button .left-sp{
+	border-right: 0;
+}
+.etn-select {
+	color: orange;
+}
+#wrap-recommend .recommend-product {
+	width: 1230px;
+	height: 403px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+#wrap-recommend .recommend-product ul {
+	width: 4000px;
+	height: 375px;
+	overflow: hidden;
+	position: absolute;
+	left: -309px;
+}
+#wrap-recommend .recommend-product ul li {
+	float: left;
+	padding-top:26px ;
+	width: 308px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+#wrap-recommend .recommend-product ul .select-recommend {
+	transform:translate3d(0,-5px,0);
+}
+#wrap-recommend .recommend-product ul .hot-buy {
+	position: relative;
+}
+#wrap-recommend .recommend-product ul .hot-buy .hot-logo {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background: #1AE06E;
+	border-radius: 25px;
+	position: absolute;
+	right: 50px;
+	top: 25px;
+	color: #fff;
+}
+#wrap-recommend .recommend-product ul li img {
+	width: 180px;
+	height: 180px;
+}
+#wrap-recommend .recommend-product ul li h5 {
+	font-size: 14px;
+    color: #333;
+    height: 30px;
+    padding: 0 15px;
+    font-weight: 500;
+    margin-top: 22px;
+    
+}
+#wrap-recommend .recommend-product ul li h6 {
+	font-size: 12px;
+    color: #b0b0b0;
+    height: 18px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+}
+.buy-product {
+	margin-top: 10px;
+    padding-bottom: 4px;
+}
+.buy-product span {
+	color:#FC6F2C;
+	font-weight: 900;
+	font-size: 14px;
+}
+.buy-product a {
+	width: 82px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #FF3B3C;
+}
+/*手机产品展示*/
+#wrap-product .product {
+	width: 1230px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+#wrap-product .product-mobil {
+	height: 1022px;
+}
+.product .product-title {
+	height: 92px;
+}
+.product .product-title .product-differ {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 92px;
+}
+.product .product-title .nav-differ {
+	float: right;
+	color: #787878;
+	font-size: 16px;
+	padding-top: 38px;
+	height: 22px;
+	line-height: 22px;
+}
+.product .product-title .nav-differ img {
+	
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.product .product-title .ZX-mobil {
+	height: 930px;
+	padding: 0 5px;
+}
+.product .ZX-mobil ul {
+	overflow: hidden;
+}
+.ZX-mobil ul li {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 0 3px 10px;
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+	transition: all .2s linear;
+}
+.ZX-mobil ul .select-mobil {
+	transform:translate3d(0,-5px,0);
+	box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+	
+}
+.ZX-mobil ul li div {
+	margin-top: 15px;
+}
+.ZX-mobil ul li img {
+	width: 165px;
+	height: 165px;
+}
+.ZX-mobil ul .big-mobil {
+	width: 605px;
+}
+.ZX-mobil ul .big-mobil div {
+	margin-top: 0;
+}
+.ZX-mobil ul .big-mobil img{
+	width: 610px;
+	height: 300px;
+}
+.ZX-mobil ul li h5 {
+	font-size: 14px;
+    color: #333;
+    height: 30px;
+    padding: 0 15px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+.ZX-mobil ul li h6 {
+	font-size: 12px;
+    color: #b0b0b0;
+    height: 18px;
+    display: block;
+    white-space: nowrap;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+}
+.ZX-mobil ul li .price {
+	color:#FC6F2C;
+	font-weight: 900;
+	font-size: 14px;
+}
+.ZX-mobil ul .tianjimax {
+	position: relative;
+}
+.ZX-mobil ul li .hot-buy {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 25px;
+	background: #3E82FF;
+	position: absolute;
+	top: 0;
+	right: 60px;
+}
+.fitting-title {
+	margin-bottom: 18px;
+    border-bottom: 1px solid #DFDFDF;
+    height: 91px;
+    line-height: 91px;
+}
+.product .fitting-title .fitting {
+ 	float: right;
+ 	width: 320px;
+ 	    color: #767676
+}
+.product .fitting-title .fitting li {
+	float: left;
+	height: 91px;
+    padding-bottom: 2px;
+    text-align: center;
+    padding: 0 5px;
+}
+.product .fitting-title .fitting li a {
+	color: #767676;
+	margin:0 11px;
+}
+.product .fitting-title span {
+	font-size: 22px;
+}
+.product .fitting-title .fitting span {
+	font-size: 16px;
+}
+.product-more a {
+	color: #767676;
+}
+.product .fitting-title .fitting img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.fitting-select {
+	border-bottom: 3px solid #fc6628;
+	
+}
+.product .fitting-title .fitting .fitting-select a {
+	color:#fc6628;
+}
+.product-hardware .hardware-title .hardware {
+	width: 152px;
+}
+
+/*底部banner部分*/
+#wrap-banner-bottom .banner-bottom {
+	width: 1230px;
+	margin: 0 auto;
+}

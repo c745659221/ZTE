@@ -1,0 +1,174 @@
+#containt {
+	height: 506px;
+	background: #F9F9F9;
+}
+#containt .containt-main {
+	width: 935px;
+	height: 426px;
+	padding-bottom: 80px;
+	margin: 0 194px;
+	overflow: hidden;
+}
+#containt .containt-main .picture {
+	float: left;
+	width: 334px;
+	height: 334px;
+	padding-right: 80px;
+	border-right: 1px solid #EEEEEE;
+	margin-top: 80px;
+}
+#containt .containt-main .picture img {
+	width: 334px;
+	height: 334px;
+}
+#containt .containt-main .panel {
+	float: left;
+	width: 332px;
+	height: 366px;
+	margin: 40px 0 20px 80px;
+}
+#containt .containt-main .panel h4 {
+	font-size: 30px;text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-weight: 500;
+}
+#containt .containt-main .panel .DialogBox {
+	width: 332px;
+	height: 312px;
+}
+#containt .containt-main .panel .DialogBox .form-login {
+	height: 292px;
+}
+.user,.password,.captcha {
+	width: 332px;
+	height: 52px;
+	position: relative;
+}
+.user-tips-bottom {
+	width: 140px;
+	height:40px;
+	line-height: 40px;
+	position: absolute;
+	background: #fff;
+	bottom: -40px;
+	left: 100px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	z-index: 9999;
+	font-size: 14px;
+	box-shadow: 0 2px 2px #ccc;
+	display: none;
+}
+.user-tips-bottom img {
+	position: absolute;
+	top: -6px;
+	left: 10px;
+}
+.user-tips-bottom .tips-bottom {
+	float: right;
+	width: 100px;
+}
+.user-tips-bottom span {
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+	background: orange;
+	height: 5px;
+	text-align: center;
+	border-radius: 3px;
+}
+.captcha {
+	height: 74px;
+}
+#containt .containt-main .panel .DialogBox .form-login input {
+	width: 302px;
+	height: 26px;
+	border: 0;
+	padding: 6px 12px;
+	border: 1px solid #CCCCCC;
+	border-radius: 2px;
+}
+
+#containt .containt-main .panel .DialogBox .form-login .captcha .code-img {
+	width: 90px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#containt .containt-main .panel .DialogBox .form-login .captcha .code-img img {
+	margin-top: 10px;
+}
+#containt .containt-main .panel .DialogBox .form-login .captcha .click-button {
+	border: 0;
+	background: none;
+	float: right;
+	color: #767676;
+	font-size: 12px;
+	padding: 7px 10px;
+	outline: none;
+	cursor: pointer;
+}
+#containt .containt-main .panel .DialogBox .form-login .captcha .click-button:hover {
+    color: #000;
+}
+#containt .containt-main .panel .DialogBox .form-login .hurry-button {
+	width: 332px;
+	height: 52px;
+	margin: 0 0 12px 0;
+}
+#containt .containt-main .panel .DialogBox .form-login .hurry-button .login-button {
+	width: 332px;
+	height: 40px;
+	padding: 7px 10px;
+	border: 0;
+	background: none;
+	background-color: #0186D1;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+}
+#containt .containt-main .panel .DialogBox .form-login .hurry-button .login-button:hover {
+	background: #0076B9;
+}
+.other-ways fieldset {
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+.other-ways fieldset legend {
+	font-size: 14px;
+	color: #767676;
+}
+.other-ways .other-link {
+	width: 200px;
+	height: 36px;
+	margin: 15px 20px;
+	margin-left: 80px;
+}
+.other-ways .other-link li {
+	display: inline-block;
+	float: left;
+	margin-right: 13px;
+	padding: 0 5px;
+}
+.other-ways .other-link li img {
+	width: 36px;
+	height: 36px;
+}
+.other-ways .other-portal {
+	font-size: 14px;
+	text-align: center;
+	color: #767676;
+}
+.forget-password:hover {
+	cursor: pointer;
+	color: #000;
+}
+.other-ways .other-portal a {
+	color: #177DCC;
+	margin-right: 22px;
+}
